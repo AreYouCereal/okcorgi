@@ -1,0 +1,36 @@
+body {
+  font-family: 'Georgia';
+  background-color: #444;
+  color: white;
+}
+
+header {
+  font-family: sans-serif;
+  padding: 50px 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.main-content {
+  float:left;
+  width: 300px;
+}
+
+p {
+  background-color: orange;
+  height: 40px;
+  font-family: arial;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  padding: 200px;
+  background-color: black;
+}
