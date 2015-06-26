@@ -1,0 +1,43 @@
+
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+  .container
+    form(method='', action='', role="form")
+      input#input.form-control(type='text', placeholder='enter something')
+      br
+      input#submit.btn.btn-default(type='submit')
+    br
+    #results
+  script(src='http://code.jquery.com/jquery-1.10.2.min.js')
+  script(src='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js')
+  script(src='/javascripts/main.js')
+
+
+
+extend layout
+block content
+  p
+    | Vivamus hendrerit arcu sed erat molestie
+    | vehicula. Sed auctor neque eu tellus
+    | rhoncus ut eleifend nibh porttitor. Ut in.
+  p
+    | Donec congue lacinia dui, a porttitor
+    | lectus condimentum laoreet. Nunc eu
+    | ullamcorper orci. Quisque eget odio ac
+    | lectus vestibulum faucibus eget in metus.
+    | In pellentesque faucibus vestibulum. Nulla
+    | at nulla justo, eget luctus tortor.
+block sidebar
+  .widget
+    h1 Widget
+    p
+      | Sed auctor neque eu tellus rhoncus ut
+      | eleifend nibh porttitor. Ut in nulla enim.
+    p
+      | Vivamus hendrerit arcu sed erat molestie
+      | vehicula.
